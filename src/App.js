@@ -5,7 +5,7 @@ function App() {
   const hochts = [
     { id: 1, completed: false, title: 'Алисочку хочетсо...' },
     { id: 2, completed: false, title: 'Сакуечку хочетсо...' },
-    { id: 4, completed: false, title: 'Цырночку хочетсо...' }
+    { id: 3, completed: false, title: 'Цырночку хочетсо...' }
   ]
 
   function ToggleHochts(id) {
