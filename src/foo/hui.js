@@ -16,18 +16,18 @@ const styles = {
   }
 }
 
-function Bar({ hochu, index, onChange }) {
+function Bar({ hochts, index, onChange }) {
   return (
     <li style={styles.li}>
       <span>
         <input type="checkbox"
           style={styles.input}
-          onChange={() => onChange(hochu.id)}
+          onChange={() => onChange(hochts.id)}
         />
       </span>
-      <strong>{index + 1} </strong>
+      <strong> {index + 1}</strong>
       &nbsp;
-      {hochu.title}
+      {hochts.title}
       <button className='rm'>&times;</button>
     </li>
 
